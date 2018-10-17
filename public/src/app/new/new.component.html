@@ -1,0 +1,13 @@
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm' crossorigin='anonymous'>
+<div id="wrapper">
+    <h4 class="purple_text">Add a new author:</h4>
+    <div id="add_author_form_wrapper">
+        <form (submit)="submitAuthor()">
+            <label class="block" for="author_name">Name:</label>
+            <input class="block" name="author_name" [(ngModel)]="name_input" [ngModelOptions]="{standalone: true}">
+            <button class="blue_button" id="home_button" [routerLink]="['/home']"><h5>Cancel</h5></button>
+            <button class="blue_button" type="submit"><h5>Submit</h5></button>
+        </form>
+        <h4 class="red_text" *ngIf="blank_flag">Field cannot be blank!</h4>
+    </div>
+</div>

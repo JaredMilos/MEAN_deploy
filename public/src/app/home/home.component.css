@@ -1,0 +1,27 @@
+#table_wrapper {
+    width:690px;
+    border: 2px solid black;
+}
+.edit_button {
+    height: 40px;
+    width: 160px;
+    display: inline-block;
+    background-image: linear-gradient(#F0DFCB, #52626F);
+    margin-right: 8px;
+}
+
+.delete_button {
+    height: 40px;
+    width: 160px;
+    display: inline-block;
+    background-image: linear-gradient(#EBCDCC, #546471);
+    margin-right: 8px;
+}
+
+.purple_text {
+    color: purple;
+}
+
+.author_margin {
+    margin-top: 5px; 
+}

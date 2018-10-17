@@ -1,0 +1,13 @@
+#wrapper {
+    padding: 15px;
+}
+.sub_window {
+    width: 700px;
+    min-height: 500px;
+}
+#home_link {
+    margin: 5px 15px 5px 5px;;
+}
+#add_link {
+    margin: 5px 0px;
+}

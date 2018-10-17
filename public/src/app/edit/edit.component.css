@@ -1,0 +1,36 @@
+label, h5 {
+    margin: 0px;
+}
+
+input {
+    width: 250px;
+    margin: 8px 0px;
+}
+
+#wrapper {
+    padding: 5px;
+}
+.purple_text {
+    color: purple;
+}
+#add_author_form_wrapper {
+    border: 1px solid black;
+    height: 160px;
+    width: 360px;
+    padding: 20px;
+}
+.blue_button {
+    height: 34px;
+    width: 112px;
+    background-color: #79BAF9;
+    color: white;
+    border-radius: 6px;
+
+}
+.block {
+    display: block;
+}
+
+#home_button {
+    margin: 0px 6px;
+}
