@@ -24,7 +24,7 @@ export class EditComponent implements OnInit {
   getAuthorsByID() { 
     let observable = this._httpService.getAuthorsByID(this.id);
     observable.subscribe(data => {
-      this.updatedAuthor = { name: data.author[0].name, _id: data.author[0]._id }
+      this.updatedAuthor = { name: data['author'][0].name, _id: data['author'][0]._id }
     })
   }
   updateAuthor() {
